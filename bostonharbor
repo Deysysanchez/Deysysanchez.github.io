@@ -13,6 +13,7 @@
 
 <ul>
     <li><a style="text-decoration:italic; color:black;" href="homepage.html">Home Page</a></li>
+       <li><a style="text-decoration:italic; color: black;" href="bostonharbor">Boston Harbor</a></li>
   <li><a style="text-decoration:italic; color:black;" href="CHINATOWN">ChinaTown</a></li>
   <li><a style="text-decoration:italic; color:black;" href="DORCHESTER">Dorchester Art Project</a></li>
   <li><a style="text-decoration:italic; color: black;" href="quincyquarries">Quincy Quarries</a></li>

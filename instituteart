@@ -10,6 +10,7 @@
 
      <ul>
          <li><a style="text-decoration:italic; color:black;" href="homepage.html">Home Page</a></li>
+         <li><a style="text-decoration:italic; color: black;" href="instituteart">The Institute of Contemporary Art</a></li>
        <li><a style="text-decoration:italic; color: orange;" href="bostonharbor">Boston Harbor</a></li>
        <li><a style="text-decoration:italic; color:orange;" href="CHINATOWN">ChinaTown</a></li>
        <li><a style="text-decoration:italic; color:orange;" href="DORCHESTER">Dorchester Art Project</a></li>
