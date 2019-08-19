@@ -1,0 +1,232 @@
+<html>
+   <link rel="stylesheet" href="style.css">
+
+
+   <br> <h2> ChinaTown
+           </h2>
+   <div id="animated-gif-container"></div>
+
+
+
+     <ul>
+         <li><a style="text-decoration:italic; color:black;" href="homepage.html">Home Page</a></li>
+       <li><a style="text-decoration:italic; color: black;" href="bostonharbor">Boston Harbor</a></li>
+       <li><a style="text-decoration:italic; color: black;" href="DORCHESTER">Dorchester Art Project</a></li>
+       <li><a style="text-decoration:italic; color: black;" href="quincyquarries">Quincy Quarries</a></li>
+       <li><a style="text-decoration:italic; color: black;" href="instituteart">The Institute of Contemporary Art</a></li>
+         <li><a style="text-decoration:italic; color:black;" href="bcommon">Boston Common</a></li>
+
+
+     </ul>
+
+
+
+
+     <h4> Located in the Downtown area,
+       Boston’s Chinatown is a real gem of a neighborhood,
+        that has a rich history and numerous places to explore.
+        You can find markets filled with Chinese specialties, a variety of bakeries,
+        its rich history/tradition and excitement!
+        </h4>
+
+           <div id="slideshow" margin:auto;>
+             <div id="slideshow-wrapper" margin:auto;>
+               <img class="mySlides" src="china.jpg" style="width:40%" alt="" class="center">
+                 <img class="mySlides" src="header.jpg" style="width:40%" alt="" class="center">
+                 <img class="mySlides" src="kid.jpg" style="width:40%" alt="">
+                 <img class="mySlides" src="gour.jpg" style="width:40%" alt="">
+                  <img class="mySlides" src="street.jpg" style="width:40%" alt="">
+
+             </div>
+             <div id="slideshow-nav"></div>
+           </div>
+
+       <embed src="http://dw.convertfiles.com/files/0582553001535402629/ips-79b45112-e522-4689-8d45-1bc53fa490c3.mov" allowfullscreen="true" width="305" height="224">
+
+       <embed src="https://s27.aconvert.com/convert/p3r68-cdx67/lkq47-w33xq.gif" allowfullscreen="true" width="305" height="224">
+
+
+
+       <script>
+
+       var Slideshow = {
+       Utils: {
+       siblings: function(element) {
+       var parent = element.parentNode,
+         childs = parent.childNodes,
+         sibls = [],
+         len = childs.length,
+         i;
+       for (i = 0; i < len; i++) {
+         var child = childs[i];
+         if (child.nodeType == 1 && child.tagName.toLowerCase() == 'img' && child !== element) {
+           sibls.push(child);
+         }
+       }
+       return sibls;
+       },
+       hideAll: function(elements) {
+       var len = elements.length,
+         i;
+       for (i = 0; i < len; i++) {
+         var element = elements[i];
+         element.className = 'hide';
+
+       }
+       },
+       show: function(element) {
+       element.className = 'show';
+       }
+       },
+       core: {
+       displayNavigation: function() {
+       var images = document.getElementById('slideshow-wrapper').getElementsByTagName('img'),
+         len = images.length,
+         i, nav = document.getElementById('slideshow-nav'),
+         html = '';
+       for (i = 0; i < len; i++) {
+         html += '<a href="#" data-img="' + i + '">' + (i + 1) + '</a>';
+       }
+       nav.innerHTML = html;
+       },
+       navigate: function() {
+       var links = document.getElementById('slideshow-nav').getElementsByTagName('a'),
+         len = links.length,
+         i;
+       for (i = 0; i < len; i++) {
+         var a = links[i];
+         a.onclick = function() {
+           var $i = this.getAttribute('data-img');
+           var img = document.getElementById('slideshow-wrapper').getElementsByTagName('img')[$i];
+           Slideshow.Utils.show(img);
+           var siblings = Slideshow.Utils.siblings(img);
+           Slideshow.Utils.hideAll(siblings);
+           return false;
+         };
+       }
+       }
+       },
+       init: function() {
+       for (var prop in this.core) {
+       if (typeof this.core[prop] === 'function') {
+         this.core[prop]();
+       }
+       }
+       }
+       };
+       Slideshow.init();
+       </script>
+
+<h2> Ratings/Comments </h2>
+
+      <h4 >
+
+        “Running the gamut from Vietnamese and Japanese, to Malaysian, Cantonese and Korean, Chinatown is home to some of the best food in the city.” </h4>
+
+
+<h4> “It's surrounded by Downtown Crossing, Back Bay, and the Financial District, so once you've had enough, you're a couple of blocks away from freedom.” </h4>
+
+
+<h4>“China town in Boston was wonderful. It was very cute and there was tons of little shops everywhere as well as great food restaurants. Definitely recommend for other tourists.”
+
+         </h4>
+<p>
+         <a style="text-decoration:italic; color:BLACK;" href="https://www.yelp.com/biz/chinatown-boston"> Click On This Link to view more reviews from Yelp!</a>
+           </p>
+
+         <h2> Map </h2>
+
+
+  <h3 style="text-align:center;" >
+  <iframe src="https://maps.google.com/maps?q=chinatown&t=&z=17&ie=UTF8&iwloc=&output=embed" width="780" height="400" ></iframe>
+  </h3>
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1" align="center";>
+<br> <br> <h6>Chinatown Restaurants Recomendations</h6> <br> <br>
+
+
+<div class="flip-box">
+  <div class="flip-box-inner">
+    <div class="flip-box-front">
+      <h8> <br> China Pearl</h8>
+<h9> _____________________________ <br> </h9>
+      <h7>
+       <br> Chinatown standby draws crowds with dim sum carts & an extensive menu of traditional dishes. </h7>
+    </div>
+    <div class="flip-box-back">
+      <img class=flip-box-back" src="chinap.jpg.png" style="width="785"; height="200"; </img> > <br>
+    </div>
+  </div>
+</div>
+</h3>
+
+
+<div class="flip-box">
+  <div class="flip-box-inner">
+    <div class="flip-box-front">
+      <h8> <br> The Q Restuarant</h8>
+<h9> _____________________________ <br> </h9>
+      <h7>
+       <br> The Q restaurant's interior oozes quality and a cozy, comfortable beauty, the amazing hot pot, dynamic lounge area and exceptionally fresh sushi will keep you coming back for more. </h7>
+    </div>
+    <div class="flip-box-back">
+      <img class=flip-box-back" src="res.jpg.png" style="width="785"; height="200"; </img>>
+    </div>
+  </div>
+</div>
+</h3>
+
+<div class="flip-box">
+  <div class="flip-box-inner">
+    <div class="flip-box-front">
+      <h8> <br>   Shojo</h8>
+<h9> _____________________________ <br> </h9>
+      <h7>
+       <br> Located in downtown Boston’s Chinatown neighborhood, is a restuarant that offers modern Asian cuisine. The menu is composed of options that are a modern take on Asian dishes and ingredients.   </h7>
+    </div>
+    <div class="flip-box-back">
+      <img class=flip-box-back" src="sho.jpg.png" style="width="785"; height="200"; >
+    </div>
+  </div>
+</div>
+</h3>
+<div class="flip-box">
+  <div class="flip-box-inner">
+    <div class="flip-box-front">
+      <h8> <br>  Shabu Zen</h8>
+<h9> _____________________________ <br> </h9>
+      <h7>
+       <br> A variety of exotic garnishes and sauces are provided with each meal for dipping the seafood, meats and vegetables, after cooking them in one of our delightful homemade broths. </h7>
+    </div>
+    <div class="flip-box-back">
+      <img class=flip-box-back" src="shabu.jpg.png" style="width="785"; height="200"; >
+    </div>
+  </div>
+</div>
+</h3>
+
+ <br> <br><br> <br> <h15> Did you like/dislike this page?</h15> <br> <br>
+
+<html>
+<head>
+<title>ChinaTown</title>
+<script language="javascript">
+function addone(field) {
+field.value = Number(field.value) + 1;
+}
+
+function subtractone(field) {
+field.value = Number(field.value) - 1;
+}
+</script>
+</head>
+<body>
+<form name="myform">
+<!--input type="submit" onclick="this.disabled = true" value="Save" -->
+<input type="text" name="myfield" value="0" size="30" readonly="readonly"><br>
+<input type="button" value="Like! " onclick="addone(myfield);" onclick="this.disabled = true">
+<input type="button" value="Unlike!" onclick="subtractone(myfield);"><br>
+</form>
+</body>
+</html>

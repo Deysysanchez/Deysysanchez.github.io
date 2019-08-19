@@ -1,0 +1,226 @@
+<html>
+   <link rel="stylesheet" href="DORCHESTER.css">
+
+
+   <br> <h2> Dorchester Art Project
+           </h2>
+   <div id="animated-gif-container"></div>
+
+
+
+     <ul>
+         <li><a style="text-decoration:italic; color:black;" href="homepage.html">Home Page</a></li>
+       <li><a style="text-decoration:italic; color: black;" href="bostonharbor">Boston Harbor</a></li>
+       <li><a tyle="text-decoration:italic; color: black;" href="CHINATOWN">ChinaTown</a></li>
+            <li><a style="text-decoration:italic; color: black;" href="quincyquarries">Quincy Quarries</a></li>
+            <li><a style="text-decoration:italic; color: black;" href="instituteart">The Institute of Contemporary Art</a></li>
+              <li><a style="text-decoration:italic; color:black;" href="bcommon">Boston Common</a></li>
+
+     </ul>
+
+
+
+
+     <h4> Dorchester Art Project is a community-driven art space in Fields Corner. Their mission is to serve artists in Dorchester, Boston and Greater Boston by providing affordable studio, performance, gallery and community gathering space.
+
+Dorchester Art Project is run by Brain Arts Organization which is a 501(c)3 nonprofit and volunteer collective of artists who believe in art centric programming and conscious cultural empowerment.
+
+        </h4>
+        <a style="text-decoration:italic; color:white;" href="https://dorchesterartproject.org/"> Click On This Link to see their website!</a>
+           <div id="slideshow" margin:auto;>
+             <div id="slideshow-wrapper" margin:auto;>
+               <img class="mySlides" src="art.jpg.png" style="width:40%" alt="" class="center">
+                 <img class="mySlides" src="white.jpg.png" style="width:40%" alt="" class="center">
+                 <img class="mySlides" src="door.jpg.png" style="width:40%" alt="">
+                  <img class="mySlides" src="fire.jpg.png" style="width:40%" alt="">
+
+             </div>
+             <div id="slideshow-nav"></div>
+           </div>
+
+       <embed src="http://dw.convertfiles.com/files/0582553001535402629/ips-79b45112-e522-4689-8d45-1bc53fa490c3.mov" allowfullscreen="true" width="305" height="224">
+
+       <embed src="https://s27.aconvert.com/convert/p3r68-cdx67/lkq47-w33xq.gif" allowfullscreen="true" width="305" height="224">
+
+
+
+       <script>
+
+       var Slideshow = {
+       Utils: {
+       siblings: function(element) {
+       var parent = element.parentNode,
+         childs = parent.childNodes,
+         sibls = [],
+         len = childs.length,
+         i;
+       for (i = 0; i < len; i++) {
+         var child = childs[i];
+         if (child.nodeType == 1 && child.tagName.toLowerCase() == 'img' && child !== element) {
+           sibls.push(child);
+         }
+       }
+       return sibls;
+       },
+       hideAll: function(elements) {
+       var len = elements.length,
+         i;
+       for (i = 0; i < len; i++) {
+         var element = elements[i];
+         element.className = 'hide';
+
+       }
+       },
+       show: function(element) {
+       element.className = 'show';
+       }
+       },
+       core: {
+       displayNavigation: function() {
+       var images = document.getElementById('slideshow-wrapper').getElementsByTagName('img'),
+         len = images.length,
+         i, nav = document.getElementById('slideshow-nav'),
+         html = '';
+       for (i = 0; i < len; i++) {
+         html += '<a href="#" data-img="' + i + '">' + (i + 1) + '</a>';
+       }
+       nav.innerHTML = html;
+       },
+       navigate: function() {
+       var links = document.getElementById('slideshow-nav').getElementsByTagName('a'),
+         len = links.length,
+         i;
+       for (i = 0; i < len; i++) {
+         var a = links[i];
+         a.onclick = function() {
+           var $i = this.getAttribute('data-img');
+           var img = document.getElementById('slideshow-wrapper').getElementsByTagName('img')[$i];
+           Slideshow.Utils.show(img);
+           var siblings = Slideshow.Utils.siblings(img);
+           Slideshow.Utils.hideAll(siblings);
+           return false;
+         };
+       }
+       }
+       },
+       init: function() {
+       for (var prop in this.core) {
+       if (typeof this.core[prop] === 'function') {
+         this.core[prop]();
+       }
+       }
+       }
+       };
+       Slideshow.init();
+       </script>
+
+<h2> Ratings/Comments </h2>
+
+      <h14 >
+
+      "Anything from free jazz, to rock and noise so be sure to check this place out." </h14> <br> <br>
+
+
+<h14> "Presenting new, experimental work by emerging artists, and live performance art." </h14> <br> <br>
+
+
+<h14>“What a hidden gem. I wish it came here sooner. So diverse and awesome for anyone no matter race, gender, age, etc.”
+
+         </h14>
+<p>
+         <a style="text-decoration:italic; color:white;" href="https://www.yelp.com/biz/dorchester-art-project-boston"> Click On This Link to view more reviews from Yelp!</a>
+           </p>
+
+         <h2> Map </h2>
+         <h3 style="text-align: center;">
+<br><div style="width: 100%"><iframe width="80%" height="500" src="https://maps.google.com/maps?width=100%&height=600&hl=en&coord=42.3657472, -71.0852608&q=1486%20Dorchester%20Ave%2C%20Boston%2C%20MA%2002122+(Your%20Business%20Name)&ie=UTF8&t=&z=14&iwloc=B&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"><a href="https://www.mapsdirections.info/en/journey-planner.htm">Journey Planner UK</a></iframe></div><br />
+</h3>
+
+<br> <br> <h6>Restaurant Recomendations near Dorchester Art Project </h6> <br> <br>
+
+
+<div class="flip-box">
+  <div class="flip-box-inner">
+    <div class="flip-box-front">
+      <h8> <br> Ánh Hồng Restaurant</h8>
+<h9> _____________________________ <br> </h9>
+      <h7>
+       <br> Pho, vermicelli bowls & other traditional Vietnamese dishes served in an unpretentious dining room. </h7>
+    </div>
+    <div class="flip-box-back">
+      <img class=flip-box-back" src="anh.jpg.png" style="width="785"; height="200"; </img> > <br>
+    </div>
+  </div>
+</div>
+</h3>
+
+
+<div class="flip-box">
+  <div class="flip-box-inner">
+    <div class="flip-box-front">
+      <h8> <br> The Blarney Stone</h8>
+<h9> _____________________________ <br> </h9>
+      <h7>
+       <br> Smart watering hole where locals relax over upscale pub grub or catch games at the wraparound bar. </h7>
+    </div>
+    <div class="flip-box-back">
+      <img class=flip-box-back" src="blarney.jpg.png" style="width="785"; height="200"; </img>>
+    </div>
+  </div>
+</div>
+</h3>
+
+<div class="flip-box">
+  <div class="flip-box-inner">
+    <div class="flip-box-front">
+      <h8> <br> Golden Star Restaurant</h8>
+<h9> _____________________________ <br> </h9>
+      <h7>
+       <br> Authentic Chinese cuisine available for carry out.
+Hunan, Szechuan, Cantonee specialities and lunch specials.   </h7>
+    </div>
+    <div class="flip-box-back">
+      <img class=flip-box-back" src="golden.jpg.png" style="width="785"; height="200"; >
+    </div>
+  </div>
+</div>
+</h3>
+<div class="flip-box">
+  <div class="flip-box-inner">
+    <div class="flip-box-front">
+      <h8> <br>  Hien Vuong Restaurant</h8>
+<h9> _____________________________ <br> </h9>
+      <h7>
+       <br> Familiar Vietnamese & Chinese dishes served in a straightforward storefront setting.</h7>
+    </div>
+    <div class="flip-box-back">
+      <img class=flip-box-back" src="hien.jpg.png" style="width="785"; height="200"; >
+    </div>
+  </div>
+</div>
+</h3>
+
+ <br> <br><br> <br> <h15> Did you like/dislike this page?</h15> <br> <br>
+
+<html>
+<head>
+<title>ChinaTown</title>
+<script language="javascript">
+function addone(field) {
+field.value = Number(field.value) + 1;
+}
+
+function subtractone(field) {
+field.value = Number(field.value) - 1;
+}
+</script>
+</head>
+<body>
+<form name="myform">
+<!--input type="submit" onclick="this.disabled = true" value="Save" -->
+<input type="text" name="myfield" value="0" size="30" readonly="readonly"><br>
+<input type="button" value="Like! " onclick="addone(myfield);" onclick="this.disabled = true">
+<input type="button" value="Unlike!" onclick="subtractone(myfield);"><br>
+</form>
+</body>
+</html>

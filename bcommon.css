@@ -1,0 +1,338 @@
+h1 {
+  color:black;
+  font-size:30px;
+  font-style: italic
+}
+
+body, html {
+    height: 100%;
+}
+
+/* The hero image */
+.header-image {
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  background-image: url("l.jpg.png");
+
+  /* Set a specific height */
+  left: 55%;
+     margin-left: -500px;
+  width:860px;
+   height:95px;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+ h7 {
+   text-indent: 10px;
+   color: #C7EA46;;
+   font-size: 14px;
+   font-style: italic;
+}
+
+
+h1 {
+  background-color: grey;
+}
+
+h1 {
+  text-align: center;
+  font-size: 40px;
+  border-style: solid;
+  border-width: 5px;
+}
+
+p {
+color: #E8E8E8;
+font-style:italic;
+font-size: 17px;
+}
+
+h4 {
+  color: black;
+  font-size: 20px;
+  font-style: italic;
+  background-color: #C7EA46;
+}
+
+h14 {
+  color: #C7EA46;
+  background-color:white;
+  font-size: 16 px;
+  font-style: oblique;
+}
+
+
+h2 {
+  text-align: center;
+  font-family: "Comic Sans MS", cursive, sans-serif
+}
+
+
+h2 {
+  margin: auto;
+  color:black;
+  border-spacing: inherit;
+  background-color: yellow;
+font-size: 20px;
+height: 35px;
+width: 30px;
+border-style: solid;
+}
+
+h2 {
+
+  width: 29%;
+  border: 4px solid black;
+  padding: 2px;
+}
+
+h6 {
+  text-align:center;
+  font-family: "Comic Sans MS", cursive, sans-serif
+}
+
+
+h6 {
+  margin: auto;
+  border-spacing: inherit;
+  background-color: #CFB997;
+font-size: 20px;
+height: 340px;
+width: 190px;
+border-style: solid;
+}
+
+h6 {
+  width: 25%;
+  border: 4px solid black;
+  padding: 2px;
+}
+
+
+h19 {
+  position: relative;
+  border-spacing: inherit;
+  background-color: white;
+font-size: 20px;
+height: 340px;
+width: 190px;
+border-style: solid;
+}
+
+h19 {
+  width: 15%;
+  border: 4px solid black;
+  padding: 2px;
+}
+
+#slideshow {
+  margin: 2em auto;
+  width: 450px;
+  overflow: hidden;
+}
+
+#slideshow-wrapper {
+  height: 290px;
+  width: 450px;
+}
+
+#slideshow-wrapper img {
+  position: absolute;
+  width: 500px;
+  height: 290px;
+  opacity: 0;
+  -moz-transition: all 800ms ease-in;
+  -webkit-transition: all 800ms ease-in;
+  -o-transition: all 800ms ease-in;
+  -ms-transition: all 800ms ease-in;
+  transition: all 800ms ease-in;
+  z-index: 1;
+}
+
+#slideshow-wrapper>img:first-child {
+  opacity: 1;
+  z-index: 2;
+}
+
+#slideshow-wrapper .show {
+  opacity: 1;
+  z-index: 3;
+}
+
+#slideshow-wrapper .hide {
+  opacity: 0;
+  z-index: 1;
+}
+
+#slideshow-nav {
+  height: 32px;
+  margin: 1em 0;
+  text-align: center;
+}
+
+#slideshow-nav a {
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  line-height: 32px;
+  text-decoration: none;
+  text-align: center;
+  color: YELLOW;
+  background: darkgreen;
+  margin-right: 1em;
+}
+
+
+.fa-thumbs-up {
+  margin-bottom: auto;
+	color: green;
+    font-size: 50px!important;
+    margin-top: 41px;
+}
+.fa-thumbs-down {
+  margin-right: auto;
+  position:center;
+	color: red;
+    font-size: 50px!important;
+    margin-top: 41px;
+}
+h5 {
+    text-align: center;
+    font-family: "Comic Sans MS", cursive, sans-serif
+  }
+
+
+  h5 {
+    margin: auto;
+    border-spacing: inherit;
+    background-color: #CFB997;
+  font-size: 20px;
+  height: 60px;
+  width: 190px;
+  border-style: solid;
+  }
+
+  body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.flip-box {
+  width: 50%;
+  display: inline-block;
+  background-color: transparent;
+  width: 300px;
+  height: 200px;
+  border: 1px solid #f1f1f1;
+  perspective: 1000px;
+}
+
+.flip-box-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.flip-box:hover .flip-box-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-box-front, .flip-box-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.flip-box-front {
+  background-color: white;
+  color: black;
+}
+
+.flip-box-back {
+   background: black;
+  color: white;
+  transform: rotateY(180deg);
+}
+
+h8 {
+  color: gold;
+}
+
+h15 {
+      text-align: left;
+      font-family: "Comic Sans MS", cursive, sans-serif
+    }
+
+
+    h15 {
+      background-color: white;
+      border-spacing: inherit;
+
+    font-size: 20px;
+    height: 60px;
+    width: 190px;
+    border-style: solid;
+    }
+
+    h6 {
+        text-align: center;
+        font-family: "Comic Sans MS", cursive, sans-serif
+      }
+
+
+      h6 {
+        margin: auto;
+        border-spacing: inherit;
+        background-color: white;
+      font-size: 20px;
+      height: 115px;
+      width: 190px;
+      border-style: solid;
+    }
+    body {font-family: Arial;}
+    ul {
+      width: 15%;
+      border: 3px solid black;
+      padding: 1px;
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      width: 200px;
+      background-color: #f1f1f1;
+    }
+
+    li a {
+        background-color: green;
+      display: block;
+      color: red;
+      padding: 8px 16px;
+      text-decoration: none;
+    }
+
+    /* Change the link color on hover */
+    li a:hover {
+      background-color: grey;
+      color: white;
+    }
+
+    @import url(IMG_2405.GIF);
+    html {
+    background:  url(IMG_2408.GIF) no-repeat center center fixed;
+    background-size: cover;
+    }
+    h1{
+    font-family: 'Advent Pro', sans-serif;
+    font-size: 3em;
+    margin: .2em .5em;
+    color: rgba(0,0,0, 0.3);
+    }
+    body {
+      height: 100%;
+    }

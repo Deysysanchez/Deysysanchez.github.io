@@ -1,0 +1,229 @@
+<html>
+   <link rel="stylesheet" href="institute.css">
+
+
+   <br> <h2> Institute of Contemporary Art
+           </h2>
+   <div id="animated-gif-container"></div>
+
+
+
+     <ul>
+         <li><a style="text-decoration:italic; color:black;" href="homepage.html">Home Page</a></li>
+       <li><a style="text-decoration:italic; color: orange;" href="bostonharbor">Boston Harbor</a></li>
+       <li><a style="text-decoration:italic; color:orange;" href="CHINATOWN">ChinaTown</a></li>
+       <li><a style="text-decoration:italic; color:orange;" href="DORCHESTER">Dorchester Art Project</a></li>
+        <li><a style="text-decoration:italic; color:orange;" href="quincyquarries">Quincy Quarries</a></li>
+      <li><a style="text-decoration:italic; color:orange;" href="bcommon">Boston Common</a></li>
+     </ul>
+
+
+
+
+     <h4> The Institute of Contemporary Art is an art museum and exhibition space located in Boston, Massachusetts, United States of America. The museum was founded as the Boston Museum of Modern Art in 1936 with a mission to exhibit contemporary art.
+
+        </h4>
+
+           <div id="slideshow" margin:auto;>
+             <div id="slideshow-wrapper" margin:auto;>
+               <img class="mySlides" src="build.jpg.png" style="width:40%" alt="" class="center">
+                 <img class="mySlides" src="ppl.jpg.png" style="width:40%" alt="" class="center">
+                 <img class="mySlides" src="sing.jpg.png" style="width:40%" alt="">
+                 <img class="mySlides" src="artwin.jpg.png" style="width:40%" alt="" class="center">
+                 <img class="mySlides" src="stairs.jpg.png" style="width:40%" alt="">
+
+
+             </div>
+             <div id="slideshow-nav"></div>
+           </div>
+
+       <embed src="http://dw.convertfiles.com/files/0582553001535402629/ips-79b45112-e522-4689-8d45-1bc53fa490c3.mov" allowfullscreen="true" width="305" height="224">
+
+       <embed src="https://s27.aconvert.com/convert/p3r68-cdx67/lkq47-w33xq.gif" allowfullscreen="true" width="305" height="224">
+
+
+
+       <script>
+
+       var Slideshow = {
+       Utils: {
+       siblings: function(element) {
+       var parent = element.parentNode,
+         childs = parent.childNodes,
+         sibls = [],
+         len = childs.length,
+         i;
+       for (i = 0; i < len; i++) {
+         var child = childs[i];
+         if (child.nodeType == 1 && child.tagName.toLowerCase() == 'img' && child !== element) {
+           sibls.push(child);
+         }
+       }
+       return sibls;
+       },
+       hideAll: function(elements) {
+       var len = elements.length,
+         i;
+       for (i = 0; i < len; i++) {
+         var element = elements[i];
+         element.className = 'hide';
+
+       }
+       },
+       show: function(element) {
+       element.className = 'show';
+       }
+       },
+       core: {
+       displayNavigation: function() {
+       var images = document.getElementById('slideshow-wrapper').getElementsByTagName('img'),
+         len = images.length,
+         i, nav = document.getElementById('slideshow-nav'),
+         html = '';
+       for (i = 0; i < len; i++) {
+         html += '<a href="#" data-img="' + i + '">' + (i + 1) + '</a>';
+       }
+       nav.innerHTML = html;
+       },
+       navigate: function() {
+       var links = document.getElementById('slideshow-nav').getElementsByTagName('a'),
+         len = links.length,
+         i;
+       for (i = 0; i < len; i++) {
+         var a = links[i];
+         a.onclick = function() {
+           var $i = this.getAttribute('data-img');
+           var img = document.getElementById('slideshow-wrapper').getElementsByTagName('img')[$i];
+           Slideshow.Utils.show(img);
+           var siblings = Slideshow.Utils.siblings(img);
+           Slideshow.Utils.hideAll(siblings);
+           return false;
+         };
+       }
+       }
+       },
+       init: function() {
+       for (var prop in this.core) {
+       if (typeof this.core[prop] === 'function') {
+         this.core[prop]();
+       }
+       }
+       }
+       };
+       Slideshow.init();
+       </script>
+
+<h2> Ratings/Comments </h2>
+
+      <h14 >
+
+<br>
+      “Great location on the water. Good Night out with friends.”
+ </h14> <br> <br>
+
+
+<h14> The building alone is well worth the visit--as is witnessing the emergence of a whole new side to Boston. The waterfront outside was amazing--even in Boston during January. </h14> <br> <br>
+
+
+<h14>“The Institute of Contemporary Art has fantastic exhibitions and a beautiful permanent collection. Well worth a visit.”
+
+
+         </h14>
+<p>
+         <a style="text-decoration:italic; color:white;" href="https://www.tripadvisor.com/Attraction_Review-g60745-d133818-Reviews-The_Institute_of_Contemporary_Art-Boston_Massachusetts.html#REVIEWS"> Click On This Link to view more reviews from Trip Advisor!</a>
+           </p>
+
+         <h2> Map </h2>
+         <h3 style="text-align: center;">
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2948.5140751858157!2d-71.04519968465343!3d42.3528823791874!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e370793a8430c5%3A0x7ab1059322edd33a!2sThe+Institute+of+Contemporary+Art!5e0!3m2!1sen!2sus!4v1566229083963!5m2!1sen!2sus" width="800" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+</h3>
+
+<br> <br> <h19>Restaurant Recomendations near The Institute of Contemporary Art</h19> <br> <br>
+
+
+<div class="flip-box">
+  <div class="flip-box-inner">
+    <div class="flip-box-front">
+      <h8> <br> Ocean Prime</h8>
+<h9> _____________________________ <br> </h9>
+      <h7>
+       <br>
+OCEAN PRIME is a modern American restaurant and lounge from renowned restaurateur Cameron Mitchell.strict,OCEAN PRIME Boston delivers an extraordinary experience to guests. Inspired by the harbor, the restaurant warm woods, leather booths and live music, a power lunch or an indulgent dinner.  </h7>
+    </div>
+    <div class="flip-box-back">
+      <img class=flip-box-back" src="ocean.jpg.png" style="width="785"; height="200"; </img> > <br>
+    </div>
+  </div>
+</div>
+</h3>
+
+
+<div class="flip-box">
+  <div class="flip-box-inner">
+    <div class="flip-box-front">
+      <h8> <br>Wagamama</h8>
+<h9> _____________________________ <br> </h9>
+      <h7>
+       <br> It’s not just japanese, chinese or korean. it’s a fresh take on great asian fusion food.
+Our exec chef has been travelling extensively across asia, selecting their favorite flavors and recipes and has given them a modern, nourishing twist,  </h7>
+    </div>
+    <div class="flip-box-back">
+      <img class=flip-box-back" src="spin.jpg.png" style="width="785"; height="200"; </img>>
+    </div>
+  </div>
+</div>
+</h3>
+
+<div class="flip-box">
+  <div class="flip-box-inner">
+    <div class="flip-box-front">
+      <h8> <br> Gather</h8>
+<h9> _____________________________ <br> </h9>
+      <h7>
+       <br> Voted “Best Restaurant in the Seaport District” by the Improper Bostonian for the last two years, Gather features inventive American fare. Signature dishes include Duck Tacos, Charred Octopus, Jambalaya  </h7>
+    </div>
+    <div class="flip-box-back">
+      <img class=flip-box-back" src="gather.jpg.png" style="width="785"; height="200"; >
+    </div>
+  </div>
+</div>
+</h3>
+<div class="flip-box">
+  <div class="flip-box-inner">
+    <div class="flip-box-front">
+      <h8> <br> Strega Waterfront</h8>
+<h9> _____________________________ <br> </h9>
+      <h7>
+       <br> Strega Waterfront is Boston’s place to see and be seen. Enjoy unforgettable Italian cuisine in Strega’s beautiful dining room adorned with two fireplaces and original artwork.</h7>
+    </div>
+    <div class="flip-box-back">
+      <img class=flip-box-back" src="strega.jpg.png" style="width="785"; height="200"; >
+    </div>
+  </div>
+</div>
+</h3>
+
+ <br> <br><br> <br> <h15> Did you like/dislike this page?</h15> <br> <br>
+
+<html>
+<head>
+<title>ChinaTown</title>
+<script language="javascript">
+function addone(field) {
+field.value = Number(field.value) + 1;
+}
+
+function subtractone(field) {
+field.value = Number(field.value) - 1;
+}
+</script>
+</head>
+<body>
+<form name="myform">
+<!--input type="submit" onclick="this.disabled = true" value="Save" -->
+<input type="text" name="myfield" value="0" size="30" readonly="readonly"><br>
+<input type="button" value="Like! " onclick="addone(myfield);" onclick="this.disabled = true">
+<input type="button" value="Unlike!" onclick="subtractone(myfield);"><br>
+</form>
+</body>
+</html>

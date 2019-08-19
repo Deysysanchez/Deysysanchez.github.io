@@ -1,0 +1,233 @@
+<html>
+   <link rel="stylesheet" href="bcommon.css">
+
+
+   <br> <h2> Boston Common/Garden
+           </h2>
+   <div id="animated-gif-container"></div>
+
+
+
+     <ul>
+         <li><a style="text-decoration:italic; color:black;" href="homepage.html">Home Page</a></li>
+       <li><a style="text-decoration:italic; color:gold;" href="bostonharbor">Boston Harbor</a></li>
+       <li><a style="text-decoration:italic; color:gold;" href="CHINATOWN">ChinaTown</a></li>
+       <li><a style="text-decoration:italic; color:gold;" href="DORCHESTER">Dorchester Art Project</a></li>
+        <li><a style="text-decoration:italic; color:gold;" href="quincyquarries">Quincy Quarries</a></li>
+          <li><a style="text-decoration:italic; color:gold;" href="instituteart">The Institute of Contemporary Art</a></li>
+     </ul>
+
+
+
+
+     <h4>   Boston Common is a central public park in downtown Boston, Massachusetts. It is sometimes erroneously referred to as the Boston Commons. Dating from 1634, it is the oldest city park in the United States. FUN FACT: Boston Common was founded in 1634.
+
+
+        </h4>
+
+           <div id="slideshow" margin:auto;>
+             <div id="slideshow-wrapper" margin:auto;>
+               <img class="mySlides" src="view.jpg.png" style="width:40%" alt="" class="center">
+                 <img class="mySlides" src="horse.jpg.png" style="width:40%" alt="" class="center">
+                 <img class="mySlides" src="cara.jpg.png" style="width:40%" alt="">
+                 <img class="mySlides" src="umbrella.jpg" style="width:40%" alt="" class="center">
+                  <img class="mySlides" src="frog.jpg.png" style="width:40%" alt="" class="center">
+
+
+
+             </div>
+             <div id="slideshow-nav"></div>
+           </div>
+
+       <embed src="http://dw.convertfiles.com/files/0582553001535402629/ips-79b45112-e522-4689-8d45-1bc53fa490c3.mov" allowfullscreen="true" width="305" height="224">
+
+       <embed src="https://s27.aconvert.com/convert/p3r68-cdx67/lkq47-w33xq.gif" allowfullscreen="true" width="305" height="224">
+
+
+
+       <script>
+
+       var Slideshow = {
+       Utils: {
+       siblings: function(element) {
+       var parent = element.parentNode,
+         childs = parent.childNodes,
+         sibls = [],
+         len = childs.length,
+         i;
+       for (i = 0; i < len; i++) {
+         var child = childs[i];
+         if (child.nodeType == 1 && child.tagName.toLowerCase() == 'img' && child !== element) {
+           sibls.push(child);
+         }
+       }
+       return sibls;
+       },
+       hideAll: function(elements) {
+       var len = elements.length,
+         i;
+       for (i = 0; i < len; i++) {
+         var element = elements[i];
+         element.className = 'hide';
+
+       }
+       },
+       show: function(element) {
+       element.className = 'show';
+       }
+       },
+       core: {
+       displayNavigation: function() {
+       var images = document.getElementById('slideshow-wrapper').getElementsByTagName('img'),
+         len = images.length,
+         i, nav = document.getElementById('slideshow-nav'),
+         html = '';
+       for (i = 0; i < len; i++) {
+         html += '<a href="#" data-img="' + i + '">' + (i + 1) + '</a>';
+       }
+       nav.innerHTML = html;
+       },
+       navigate: function() {
+       var links = document.getElementById('slideshow-nav').getElementsByTagName('a'),
+         len = links.length,
+         i;
+       for (i = 0; i < len; i++) {
+         var a = links[i];
+         a.onclick = function() {
+           var $i = this.getAttribute('data-img');
+           var img = document.getElementById('slideshow-wrapper').getElementsByTagName('img')[$i];
+           Slideshow.Utils.show(img);
+           var siblings = Slideshow.Utils.siblings(img);
+           Slideshow.Utils.hideAll(siblings);
+           return false;
+         };
+       }
+       }
+       },
+       init: function() {
+       for (var prop in this.core) {
+       if (typeof this.core[prop] === 'function') {
+         this.core[prop]();
+       }
+       }
+       }
+       };
+       Slideshow.init();
+       </script>
+
+<h2> Ratings/Comments </h2>
+
+      <h14 >
+
+<br>
+Boston Common is right in the heart of the historic city. The park is wonderful and has many attractions.
+
+ </h14> <br> <br>
+
+
+<h14> It is a big park where you can enjoy nature. You will find families puzzing in the frog pond and you can have a rest on any bench there. </h14> <br> <br>
+
+
+<h14>Boston Common is a beautiful park with many historic landmarks. Take you time and plan your walk so that you can have a wonderful experience.
+
+
+         </h14>
+<p>
+         <a style="text-decoration:italic; color:white;" href="https://www.tripadvisor.com/Attraction_Review-g60745-d104795-Reviews-Boston_Common-Boston_Massachusetts.html"> Click On This Link to view more reviews from Trip Advisor!</a>
+           </p>
+
+         <h2> Map </h2>
+         <h3 style="text-align: center;">
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2948.3933414582916!2d-71.06605718465336!3d42.355455879187225!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e3709dbc6e232b%3A0x3f8683fc7ba94f04!2sBoston+Common!5e0!3m2!1sen!2sus!4v1566228988900!5m2!1sen!2sus" width="800" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+</h3>
+
+<br> <br> <h19>Restaurant Recomendations near Boston Common</h19> <br> <br>
+
+
+<div class="flip-box">
+  <div class="flip-box-inner">
+    <div class="flip-box-front">
+      <h8> <br> Fajitas & 'Ritas
+
+</h8>
+<h9> _____________________________ <br> </h9>
+      <h7>
+       <br>
+Established in 1989, Fajitas & ‘Ritas is an award winning, good-vibe, “unabashedly fun” restaurant and bar featuring fresh Texas and barbecue cuisine. </h7>
+    </div>
+    <div class="flip-box-back">
+      <img class=flip-box-back" src="texs.jpg.png" style="width="785"; height="200"; </img> > <br>
+    </div>
+  </div>
+</div>
+</h3>
+
+
+<div class="flip-box">
+  <div class="flip-box-inner">
+    <div class="flip-box-front">
+      <h8> <br>Legal Crossing</h8>
+<h9> _____________________________ <br> </h9>
+      <h7>
+       <br>  Legal Crossing is an urban neighborhood restaurant inspired by the vibrancy of Downtown Crossing, then and now. It's a cross between all of the Legal Sea Foods concepts, evolved into a new, singular experience. The menu showcases the freshness and purity of our seafood.  </h7>
+    </div>
+    <div class="flip-box-back">
+      <img class=flip-box-back" src="crab.jpg.png" style="width="785"; height="200"; </img>>
+    </div>
+  </div>
+</div>
+</h3>
+
+<div class="flip-box">
+  <div class="flip-box-inner">
+    <div class="flip-box-front">
+      <h8> <br> Blu Restuarant</h8><br>
+<h9> _____________________________ <br> </h9>
+      <h7>
+       <br>Upscale restaurant featuring a seasonal American menu, & huge windows providing city views. </h7>
+    </div>
+    <div class="flip-box-back">
+      <img class=flip-box-back" src="fish.jpg.png" style="width="785"; height="200"; >
+    </div>
+  </div>
+</div>
+</h3>
+<div class="flip-box">
+  <div class="flip-box-inner">
+    <div class="flip-box-front">
+      <h8> <br> Teatro Restaurant</h8>
+<h9> _____________________________ <br> </h9>
+      <h7>
+       <br> Teatro Restaurant is defined by its vibrant, casual elegance in both atmosphere and food. Nestled in Boston's Theater District, Chef Jamie Mammano takes a contemporary approach to classic Italian dishes.  Whether out on the town with friends, or off to a nearby theater with a date, Teatro lends its grace to any occasion.</h7>
+    </div>
+    <div class="flip-box-back">
+      <img class=flip-box-back" src="hall.jpg.png" style="width="785"; height="200"; >
+    </div>
+  </div>
+</div>
+</h3>
+
+ <br> <br><br> <br> <h15> Did you like/dislike this page?</h15> <br> <br>
+
+<html>
+<head>
+<title>ChinaTown</title>
+<script language="javascript">
+function addone(field) {
+field.value = Number(field.value) + 1;
+}
+
+function subtractone(field) {
+field.value = Number(field.value) - 1;
+}
+</script>
+</head>
+<body>
+<form name="myform">
+<!--input type="submit" onclick="this.disabled = true" value="Save" -->
+<input type="text" name="myfield" value="0" size="30" readonly="readonly"><br>
+<input type="button" value="Like! " onclick="addone(myfield);" onclick="this.disabled = true">
+<input type="button" value="Unlike!" onclick="subtractone(myfield);"><br>
+</form>
+</body>
+</html>
