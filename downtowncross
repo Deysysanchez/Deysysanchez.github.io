@@ -10,11 +10,12 @@
    <div class = "topnav-right">
 
      <h4><a style="text-decoration:italic; color:black;" href="homepage.html">Home Page</a></h4>
+     <h4><a style="text-decoration:italic; color:black;" href="mall">Shops</a></h4>
 
               <br>
               <br>
 
-              <h13> CambridgeSide is a shopping destination with over 100 stores and restaurants. Located in Cambridge, Massachusetts, CambridgeSide opened in 1990. The original anchor stores were Sears, Filene's and Lechmere. </h13>
+              <h13> Primarily a pedestrian shopping zone, Downtown Crossing lies at the intersection of Washington, Winter and Summer streets. Its historic buildings now house a mix of department stores, fashion and discount chains, souvenir shops and other specialty retailers.  </h13>
 <br>
 
    <br>
@@ -22,7 +23,7 @@
    <h8> Map </h8>
    <h3 style="text-align: center;">
 
-    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11791.194238917686!2d-71.0763644!3d42.3681321!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xdfa758dd70dfd698!2sCambridgeSide!5e0!3m2!1sen!2sus!4v1566326063634!5m2!1sen!2sus" width="1000" height="290" frameborder="0" style="border:0" allowfullscreen></iframe>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5896.774237420533!2d-71.06468157306219!3d42.355588516748846!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e3708322817c0b%3A0x9fdcf07e5102b44c!2sDowntown+Crossing%2C+Boston%2C+MA!5e0!3m2!1sen!2sus!4v1566327743266!5m2!1sen!2sus" width="1000" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
    </h3>
 
    <hr>
@@ -31,9 +32,9 @@
    <h8> Reviews</h8>
    <br>
    <br>
-    <h3> "Been here a few times. Great location. This visit mall was across the street from my hotel. Its a small mall but easy to navigate. A few major stores"</h3>
-    <h3> "Loved this place. Over 100 really nice shops & restaurants. Beautifully laid out. Very open. Lots of glass. You can browse here for hours. Love the water outside."</h3>
-     <h3> "This is a nice mall close to Boston by the T. The stores are a good mix. I have shopped there many times I have been in Boston."</h3>
+    <h3> "This is a fantastic shopping area not just because it houses Boston's edition of Macy's but, for me at least, because it is the location of the best supermarket that I've ever come across anywhere in the USA - Roche Bros. Not so much an opportunity to shop more an experience to be savoured."</h3>
+    <h3> "Downtown Crossing is the shopping place in Boston. Full of well-known brand names and large department stores. Bustling and vibrant."</h3>
+     <h3> "Great shops and supermarket. The subway is right there .... very convenient. Macy's, Gap outlet and more!"</h3>
      <br>
 
      <hr>
@@ -43,7 +44,7 @@
    <h3> Enter your location, and see whatever option is best for you to get to your destination! Either taking the train, bus, car, bike, or just walking!
 
    <h3 style="text-align: center;">
-  <iframe src="https://www.google.com/maps/embed?pb=!1m19!1m8!1m3!1d11791.194238917686!2d-71.0763644!3d42.3681321!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x89e370bdb219dc35%3A0xdfa758dd70dfd698!2sCambridgeSide%2C+100+Cambridgeside+Pl%2C+Cambridge%2C+MA+02141!3m2!1d42.3681321!2d-71.0763644!5e0!3m2!1sen!2sus!4v1566326225760!5m2!1sen!2sus" width="900" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+  <iframe src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d94348.36869768432!2d-71.12964559285031!3d42.35560123978725!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x89e3708322817c0b%3A0x9fdcf07e5102b44c!2sDowntown+Crossing%2C+Boston%2C+MA!3m2!1d42.3554958!2d-71.0594338!5e0!3m2!1sen!2sus!4v1566327869197!5m2!1sen!2sus" width="900" height="350" frameborder="0" style="border:0" allowfullscreen></iframe>
    </h3>
 
 
