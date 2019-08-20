@@ -53,12 +53,14 @@ font-size: 17px;
 
 h4 {
   color: black;
+  background-color: white;
   font-size: 16 px;
   font-style: oblique;
 }
 
 h14 {
   color: white;
+  background-color: black;
   font-size: 16 px;
   font-style: oblique;
 }

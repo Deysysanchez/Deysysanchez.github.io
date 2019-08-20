@@ -9,13 +9,13 @@
 
 
      <ul>
-         <li><a style="text-decoration:italic; color:black;" href="homepage.html">Home Page</a></li>
-               <li><a style="text-decoration:italic; color:black;" href="bcommon">Boston Common</a></li>
+         <li><a style="text-decoration:italic; color:gold;" href="homepage.html">Home Page</a></li>
+             <li><a style="text-decoration:italic; color:gold;" href="CHINATOWN">ChinaTown</a></li>
        <li><a style="text-decoration:italic; color:gold;" href="bostonharbor">Boston Harbor</a></li>
-       <li><a style="text-decoration:italic; color:gold;" href="CHINATOWN">ChinaTown</a></li>
        <li><a style="text-decoration:italic; color:gold;" href="DORCHESTER">Dorchester Art Project</a></li>
         <li><a style="text-decoration:italic; color:gold;" href="quincyquarries">Quincy Quarries</a></li>
           <li><a style="text-decoration:italic; color:gold;" href="instituteart">The Institute of Contemporary Art</a></li>
+             <li><a style="text-decoration:italic; color:gold;" href="bcommon">Boston Common</a></li>
      </ul>
 
 

@@ -52,6 +52,7 @@ font-size: 17px;
 }
 
 h4 {
+  background-color: white;
   color: hotpink;
   font-size: 16 px;
   font-style: oblique;
@@ -299,7 +300,7 @@ h15 {
 
     /* Change the link color on hover */
     li a:hover {
-      background-color: black;
+      background-color: white;
       color: white;
     }
 
