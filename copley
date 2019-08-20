@@ -7,6 +7,7 @@
 <div class = "topnav-right">
 
   <h4><a style="text-decoration:italic; color:black;" href="homepage.html">Home Page</a></h4>
+     <h4><a style="text-decoration:italic; color:black;" href="mall">Shops</a></h4>
 
            <br>
            <br>
@@ -43,3 +44,253 @@
 <h3 style="text-align: center;">
 <iframe src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d2948.7814273376844!2d-71.077802376056!3d42.347183182556066!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x89e37a0d95914743%3A0xcdbc41b7652d5bd7!2sCopley+Place%2C+100+Huntington+Ave%2C+Boston%2C+MA+02116!3m2!1d42.3471494!2d-71.0778284!5e0!3m2!1sen!2sus!4v1566319277807!5m2!1sen!2sus" width="900" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
 </h3>
+<p>
+         <a style="text-decoration:italic; color:white;" ></a>
+           </p>
+
+ <br> <h1>Stores at Cambridge Galleria </h1> <br>
+
+<center>
+<div class="flip-box">
+  <div class="flip-box-inner">
+    <div class="flip-box-front">
+      <h8> <br> APM Monaco</h8>
+<h9> _____________________________ <br> </h9>
+      <h7>
+       <br> APM is a fashion lover destination for modern luxurious jewelry. </h7>
+    </div>
+    <div class="flip-box-back">
+      <img class=flip-box-back" src="apm.jpg" style="width="700"; height="200"; </img> > <br>
+    </div>
+  </div>
+</div>
+</h3>
+
+   <link rel="stylesheet" href="cam.css">
+<div class="flip-box">
+  <div class="flip-box-inner">
+    <div class="flip-box-front">
+      <h8> <br> Banana Republic </h8>
+<h9> _____________________________ <br> </h9>
+      <h7>
+         Banana Republic offers fragrances, clothing, eyewear, jewelry,
+         shoes and handbags with detailed craftsmanship and luxurious materials. </h7>
+    </div>
+    <div class="flip-box-back">
+      <img class=flip-box-back" src="banana.jpg" style="width="700"; height="215"; </img>>
+    </div>
+  </div>
+</div>
+</h3>
+
+<div class="flip-box">
+  <div class="flip-box-inner">
+    <div class="flip-box-front">
+      <h8> <br> Barneys New York</h8>
+<h9> _____________________________ <br> </h9>
+      <h7>
+        Is a luxury specialty retailer renowned from the world's top designers, including women's and men's ready-to-wear,
+         accessories, shoes, jewelry, cosmetics, fragrances, gifts for home.</h7>
+    </div>
+    <div class="flip-box-back">
+      <img class=flip-box-back" src="barneys.jpg" style="width="700"; height="200"; >
+    </div>
+  </div>
+</div>
+</h3>
+<div class="flip-box">
+  <div class="flip-box-inner">
+    <div class="flip-box-front">
+      <h8> <br>  BOSS HUGO BOSS</h8>
+<h9> _____________________________ <br> </h9>
+      <h7>
+       <br>Boss Hugo Boss is a Germany luxuary store originally produced general purpose of clothings.</h7>
+    </div>
+    <div class="flip-box-back">
+      <img class=flip-box-back" src="boss.jpeg" style="width="700"; height="200"; >
+    </div>
+  </div>
+</div>
+</h3>
+<div class="flip-box">
+  <div class="flip-box-inner">
+    <div class="flip-box-front">
+      <h8> <br> Bottega Veneta </h8>
+<h9> _____________________________ <br> </h9>
+      <h7>
+        <br>
+       Bottega Veneta is an Italian luxury goods and high fashion brand.  </h7>
+    </div>
+    <div class="flip-box-back">
+      <img class=flip-box-back" src="bot.jpg" style="width="500"; height="188"; </img>>
+    </div>
+  </div>
+</div>
+</h3>
+<div class="flip-box">
+  <div class="flip-box-inner">
+    <div class="flip-box-front">
+      <h8>  Burberry </h8>
+<h9> _____________________________  <br></h9>
+      <h7>
+        <br>
+        Its main fashion house focuses on and distributes trench coats,
+        ready-to-wear outerwear, fashion accessories, fragrances, sunglasses, and cosmetics.. </h7>
+    </div>
+    <div class="flip-box-back">
+      <img class=flip-box-back" src="Burberry.jpg" style="width="700"; height="200"; </img>>
+    </div>
+  </div>
+</div>
+</h3>
+<div class="flip-box">
+  <div class="flip-box-inner">
+    <div class="flip-box-front">
+      <h8> <br> Chanel</h8>
+<h9> _____________________________ <br> </h9>
+      <h7>
+        <br>
+         Chanel S.A. is a high fashion house that specializes in haute couture and ready-to-wear
+          clothes, luxury goods, and fashion accessories </h7>
+    </div>
+    <div class="flip-box-back">
+      <img class=flip-box-back" src="chanel.jpg" style="width="700"; height="200"; </img>>
+    </div>
+  </div>
+</div>
+</h3>
+<div class="flip-box">
+  <div class="flip-box-inner">
+    <div class="flip-box-front">
+      <h8> <br> Dior</h8>
+<h9> _____________________________ <br> </h9>
+      <h7>
+        <br>
+        Luxury label's designer fashion store,
+        also selling cosmetics, jewelry & other accessories. </h7>
+    </div>
+    <div class="flip-box-back">
+      <img class=flip-box-back" src="dior.jpeg" style="width="700"; height="200"; </img>>
+    </div>
+  </div>
+</div>
+</h3>
+<div class="flip-box">
+  <div class="flip-box-inner">
+    <div class="flip-box-front">
+      <h8> <br> Christian Louboutin</h8>
+<h9> _____________________________ <br> </h9>
+      <h7>
+      <br>
+They contain variety of products such as shoes, leather goods, beauty and accessories </h7>
+    </div>
+    <div class="flip-box-back">
+      <img class=flip-box-back" src="c.jpg" style="width="700"; height="200"; </img>>
+    </div>
+  </div>
+</div>
+</h3>
+<div class="flip-box">
+  <div class="flip-box-inner">
+    <div class="flip-box-front">
+      <h8> <br> Coach</h8>
+<h9> _____________________________ <br> </h9>
+      <h7>
+        <br>
+          Coach is an American company specializing in luxury accessories such as handbags.   </h7>
+    </div>
+    <div class="flip-box-back">
+      <img class=flip-box-back" src="coach.jpeg" style="width="700"; height="200"; </img>>
+    </div>
+  </div>
+</div>
+</h3>
+<div class="flip-box">
+  <div class="flip-box-inner">
+    <div class="flip-box-front">
+      <h8> <br> Celine</h8>
+<h9> _____________________________ <br> </h9>
+      <h7>
+        <br>CELINE is a French ready to wear and leather
+        luxury goods brand that has been owned by LVMH group since 1996.  </h7>
+    </div>
+    <div class="flip-box-back">
+      <img class=flip-box-back" src="celine.jpg" style="width="700"; height="200"; </img>>
+    </div>
+  </div>
+</div>
+</h3>
+<div class="flip-box">
+  <div class="flip-box-inner">
+    <div class="flip-box-front">
+      <h8> <br>Eileen Fisher </h8>
+<h9> _____________________________ <br> </h9>
+      <h7>
+      <br>   Eilenn Fisher contains women's clothing that combines the best of sustainable fashion and timeless design. </h7>
+    </div>
+    <div class="flip-box-back">
+      <img class=flip-box-back" src="eli.jpg" style="width="700"; height="200"; </img>>
+    </div>
+  </div>
+</div>
+</h3>
+<div class="flip-box">
+  <div class="flip-box-inner">
+    <div class="flip-box-front">
+      <h8> <br> Fendi </h8>
+<h9> _____________________________ <br> </h9>
+      <h7>
+       <br>Fendi is an Italian luxury fashion house producing fur, ready-to-wear,
+        leather goods, shoes, fragrances, eyewear, timepieces and accessories</h7>
+    </div>
+    <div class="flip-box-back">
+      <img class=flip-box-back" src="fendi.jpg" style="width="700"; height="200"; </img>>
+    </div>
+  </div>
+</div>
+</h3>
+<div class="flip-box">
+  <div class="flip-box-inner">
+    <div class="flip-box-front">
+      <h8> <br> Gucci <br> </h8>
+<h9> _____________________________ <br> </h9>
+      <h7>
+      <br> Gucci is an Italian luxury brand of fashion and leather goods </h7>
+    </div>
+    <div class="flip-box-back">
+      <img class=flip-box-back" src="gucci.jpg" style="width="700"; height="200"; </img>>
+    </div>
+  </div>
+</div>
+</h3>
+<div class="flip-box">
+  <div class="flip-box-inner">
+    <div class="flip-box-front">
+      <h8> <br> Louis Vuitton  <br> </h8>
+<h9> _____________________________ <br> </h9>
+      <h7>
+      <br> Louis Vuitton Malletier, commonly referred to as Louis Vuitton or shortened to
+       LV, is a French fashion house and luxury retail company  </h7>
+    </div>
+    <div class="flip-box-back">
+      <img class=flip-box-back" src="lv.jpg" style="width="700"; height="200"; </img>>
+    </div>
+  </div>
+</div>
+</h3>
+<div class="flip-box">
+  <div class="flip-box-inner">
+    <div class="flip-box-front">
+      <h8> <br> J.Crew  <br> </h8>
+<h9> _____________________________ <br> </h9>
+      <h7>
+      <br> The company offers an assortment of women's, men's, and children's apparel and accessories
+  and jewelry. </h7>
+    </div>
+    <div class="flip-box-back">
+      <img class=flip-box-back" src="jcrew.jpg" style="width="700"; height="200"; </img>>
+    </div>
+  </div>
+</div>
+</h3>
+<html>
