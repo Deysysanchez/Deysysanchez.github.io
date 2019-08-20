@@ -278,4 +278,19 @@ They contain variety of products such as shoes, leather goods, beauty and access
   </div>
 </div>
 </h3>
+<div class="flip-box">
+  <div class="flip-box-inner">
+    <div class="flip-box-front">
+      <h8> <br> J.Crew  <br> </h8>
+<h9> _____________________________ <br> </h9>
+      <h7>
+      <br> The company offers an assortment of women's, men's, and children's apparel and accessories
+  and jewelry. </h7>
+    </div>
+    <div class="flip-box-back">
+      <img class=flip-box-back" src="jcrew.jpg" style="width="700"; height="200"; </img>>
+    </div>
+  </div>
+</div>
+</h3>
 <html>
