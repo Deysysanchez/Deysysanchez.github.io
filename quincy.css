@@ -59,7 +59,8 @@ h4 {
 }
 
 h14 {
-  color: white;
+  background-color: white;
+  color: hotpink;
   font-size: 16 px;
   font-style: oblique;
 }
