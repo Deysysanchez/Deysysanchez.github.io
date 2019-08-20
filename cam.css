@@ -293,7 +293,7 @@ h15 {
     }
 
     li a {
-        background-image: url("g.jpg.png");
+        background-color: white;
       display: block;
       color: #000;
       padding: 8px 16px;
