@@ -1,12 +1,12 @@
 <html>
-   <link rel="stylesheet" href="cam.css">
+   <link rel="stylesheet" href="dt.css">
 
 
 
    <div id="animated-gif-container"></div>
 
    <div class="scrollmenu" >
-   <center><IMG SRC="cammall.jpg.png" ALT="some text" WIDTH=1190 HEIGHT=122>
+   <center><IMG SRC="dt.jpg.png" ALT="some text" WIDTH=1190 HEIGHT=122>
    <div class = "topnav-right">
 
      <h4><a style="text-decoration:italic; color:black;" href="homepage.html">Home Page</a></h4>
@@ -150,6 +150,72 @@
       <img class=flip-box-back" src="21.jpg" style="width="700"; height="200"; </img>>
     </div>
   </div>
+</div>
+</h3>
+
+
+<div class="flip-box">
+ <div class="flip-box-inner">
+   <div class="flip-box-front">
+     <h8> <br> Primark </h8>
+<h9> _____________________________ <br> </h9>
+     <h7>
+      <br> Primark is an Irish fast fashion retailer headquartered in Dublin
+      the company was founded in June 1969 by Arthur Ryan.</h7>
+   </div>
+   <div class="flip-box-back">
+     <img class=flip-box-back" src="pr.jpg" style="width="700"; height="200"; </img> > <br>
+   </div>
+ </div>
+</div>
+</h3>
+
+
+<div class="flip-box">
+ <div class="flip-box-inner">
+   <div class="flip-box-front">
+     <h8> <br> T.J. Maxx</h8>
+<h9> _____________________________ <br> </h9>
+     <h7>
+       TJ Maxx is an American department store chain foundedin 1976 by Bernard
+     Cammarata.</h7>
+   </div>
+   <div class="flip-box-back">
+     <img class=flip-box-back" src="t.jpeg" style="width="700"; height="200"; </img>>
+   </div>
+ </div>
+</div>
+</h3>
+
+<div class="flip-box">
+ <div class="flip-box-inner">
+   <div class="flip-box-front">
+     <h8> <br> Marshalls</h8>
+<h9> _____________________________ <br> </h9>
+     <h7>
+        Marshalls is a chain of American off-price department stores owned by
+        TJX Companies foundedin 1956 by Alfred Marshall, Bernard Goldston and
+        Norman Barren.</h7>
+   </div>
+   <div class="flip-box-back">
+     <img class=flip-box-back" src="mar.jpg.png" style="width="700"; height="200"; >
+   </div>
+ </div>
+</div>
+</h3>
+<div class="flip-box">
+ <div class="flip-box-inner">
+   <div class="flip-box-front">
+     <h8> <br> CVS</h8>
+<h9> _____________________________ <br> </h9>
+     <h7>
+      <br> health care innovation company founded in 1963 by Stanley Goldstein,
+      Sidney Goldstein and Ralph Hoagland.</h7>
+   </div>
+   <div class="flip-box-back">
+     <img class=flip-box-back" src="CVS.jpg" style="width="700"; height="200"; >
+   </div>
+ </div>
 </div>
 </h3>
 

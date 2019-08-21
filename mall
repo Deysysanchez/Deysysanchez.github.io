@@ -1,10 +1,12 @@
 <html>
    <link rel="stylesheet" href="mall.css">
 
+   <div class="scrollmenu" >
+   <center><IMG SRC="lss.jpg.png" ALT="some text" WIDTH=1340 HEIGHT=112>
+   <div class = "topnav-right">
 <h4><a style="text-decoration:italic; color:black;" href="homepage.html">Home Page</a></h4>
 
 
-   <br> <h2> Malls in Boston
            </h2>
            <br>
            <br>
@@ -22,3 +24,140 @@
 
 <br>
            <div id="animated-gif-container"></div>
+
+           <form id="quizForm" method="post" onsubmit="quiz_function(); return false;">
+
+       <br>
+       <h1>
+       Which Mall is best for you to shop at?
+       </h1>
+       <br>
+       Enter Name
+       <input type="text" id="Name" value="">
+       <div id="Name_result"></div>
+       <br>
+       <input type="submit" value="Submit">
+       <label>
+
+         <div class="section1">
+           <p class="question1">Describe your style in one word?</p>
+           <ul class="answers1">
+             <input type="radio" id="q1a" name="set1">
+             <label for="q1a">Comfy</label>
+             <br/>
+             <input type="radio" id="q1a" name="set1">
+             <label for="q1b">Casual </label>
+             <br/>
+             <input type="radio" id="q1a" name="set1">
+             <label for="q1c">Fancy</label>
+             <br/>
+             <input type="radio" id="q1a" name="set1">
+             <label for="q1d">Cancer (June 21-July 22)</label>
+             <br/>
+             <input type="radio" id="q1a" name="set1">
+             <label for="q1a">Leo (July 23-August 22)</label>
+             <br/>
+             <input type="radio" id="q1a" name="set1">
+             <label for="q1b"> Virgo (August 23-September 22)</label>
+             <br/>
+             <input type="radio" id="q1a" name="set1">
+             <label for="q1c">Libra (September 23-October 22)</label>
+             <br/>
+             <input type="radio" id="q1a" name="set1">
+             <label for="q1d">Scorpio (October 23-November 21)</label>
+             <br/>
+             <input type="radio" id="q1a" name="set1">
+             <label for="q1a">Sagittarius (November 22-December 21)</label>
+             <br/>
+             <input type="radio" id="q1a" name="set1">
+             <label for="q1b">Capricorn (December 22-January 19)</label>
+             <br/>
+             <input type="radio" id="q1a" name="set1">
+             <label for="q1c">Aquarius (January 20 to February 18)</label>
+             <br/>
+             <input type="radio" id="q1a" name="set1">
+             <label for="q1d">Pisces (February 19 to March 20)</label>
+             <br/>
+             <br/>
+           </ul>
+         </div>
+
+         <div class="section2" >
+
+           <p class="question2">Where do you buy your shoes?</p>
+           <ul class="answers2">
+             <input type="radio" name="q1" value="a" id="q1a">
+             <label for="q1a">Call It Spring</label>
+             <br/>
+             <input type="radio" name="q1" value="b" id="q1b">
+             <label for="q1b">The Walking Company</label>
+             <br/>
+             <input type="radio" name="q1" value="c" id="q1c">
+             <label for="q1c">Skechers</label>
+             <br/>
+             <input type="radio" name="q1" value="d" id="q1d">
+             <label for="q1d">Etc....</label>
+             <br/>
+           </ul>
+         </div>
+
+         <div class="section3">
+           <p class="question3">Do you shop at a place that also has food?</p>
+           <ul class="answers3">
+             <input type="radio" id="q1b" name="set3">
+             <label for="q1a">Of course.</label>
+             <br/>
+             <input type="radio" id="q1b" name="set3">
+             <label for="q1b">No, I only shop at malls that are for buying clothes.</label>
+             <br/>
+             <input type="radio" id="q1b" name="set3">
+             <label for="q1c">I have no idea.</label>
+             <br/>
+           </ul>
+         </div>
+
+         <div class="section4">
+           <p class="question4">Where have you recently shopped and how many times have you been there?</p>
+           <ul class="answers4">
+             <input type="radio" id="q1c" name="set4">
+             <label for="q1a">Forever 21</label>
+             <br/>
+             <input type="radio" id="q1c" name="set4">
+             <label for="q1b">Macy's</label>
+             <br/>
+             <input type="radio" id="q1c" name="set4">
+             <label for="q1c">H & M</label>
+             <br/>
+             <input type="radio" id="q1c" name="set4">
+             <label for="q1d">Etc....</label>
+             <br/>
+           </ul>
+         </div>
+
+         <div class="section5">
+           <p class="question5">What is the limit price for your budget when shopping?</p>
+           <ul class="answers5">
+             <input type="radio" id="q1d" name="set5">
+             <label for="q1a">50$</label>
+             <br/>
+             <input type="radio" id="q1d" name="set5">
+             <label for="q1b">100$</label>
+             <br/>
+             <input type="radio" id="q1d" name="set5">
+             <label for="q1c">200$</label>
+             <br/>
+             <input type="radio" id="q1d" name="set5">
+             <label for="q1d">Etc....</label>
+             <br/>
+           </ul>
+         </div>
+
+
+
+<script>
+function quiz_function() {
+  value = document.getElementById('Name').value;
+  //window.alert(value)
+  document.getElementById('Name_result').innerHTML = value;
+}
+</script>

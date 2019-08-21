@@ -208,14 +208,13 @@ They contain variety of products such as shoes, leather goods, beauty and access
 <div class="flip-box">
   <div class="flip-box-inner">
     <div class="flip-box-front">
-      <h8> <br> Celine</h8>
+      <h8>  The Walking Company</h8>
 <h9> _____________________________ <br> </h9>
       <h7>
-        <br>CELINE is a French ready to wear and leather
-        luxury goods brand that has been owned by LVMH group since 1996.  </h7>
+      <br>  The Walking Company is the world's leading destination for high-quality, technically designed comfort footwear, orthotics, and accessories.   </h7>
     </div>
     <div class="flip-box-back">
-      <img class=flip-box-back" src="celine.jpg" style="width="700"; height="200"; </img>>
+      <img class=flip-box-back" src="walking.jpg.png" style="width="700"; height="200"; </img>
     </div>
   </div>
 </div>
