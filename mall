@@ -39,46 +39,22 @@
        <input type="submit" value="Submit">
        <label>
 
-         <div class="section1">
+         <div class="section1" align="center";>
            <p class="question1">Describe your style in one word?</p>
            <ul class="answers1">
              <input type="radio" id="q1a" name="set1">
-             <label for="q1a">Comfy</label>
+             <label for="q1a">Comfy Wear</label>
              <br/>
              <input type="radio" id="q1a" name="set1">
-             <label for="q1b">Casual </label>
+             <label for="q1b">Streetwear Style</label>
              <br/>
              <input type="radio" id="q1a" name="set1">
-             <label for="q1c">Fancy</label>
+             <label for="q1c">Formal Wear</label>
              <br/>
              <input type="radio" id="q1a" name="set1">
-             <label for="q1d">Cancer (June 21-July 22)</label>
+             <label for="q1d">A mix of styles.</label>
              <br/>
-             <input type="radio" id="q1a" name="set1">
-             <label for="q1a">Leo (July 23-August 22)</label>
-             <br/>
-             <input type="radio" id="q1a" name="set1">
-             <label for="q1b"> Virgo (August 23-September 22)</label>
-             <br/>
-             <input type="radio" id="q1a" name="set1">
-             <label for="q1c">Libra (September 23-October 22)</label>
-             <br/>
-             <input type="radio" id="q1a" name="set1">
-             <label for="q1d">Scorpio (October 23-November 21)</label>
-             <br/>
-             <input type="radio" id="q1a" name="set1">
-             <label for="q1a">Sagittarius (November 22-December 21)</label>
-             <br/>
-             <input type="radio" id="q1a" name="set1">
-             <label for="q1b">Capricorn (December 22-January 19)</label>
-             <br/>
-             <input type="radio" id="q1a" name="set1">
-             <label for="q1c">Aquarius (January 20 to February 18)</label>
-             <br/>
-             <input type="radio" id="q1a" name="set1">
-             <label for="q1d">Pisces (February 19 to March 20)</label>
-             <br/>
-             <br/>
+
            </ul>
          </div>
 
@@ -152,6 +128,48 @@
            </ul>
          </div>
 
+         <!-- begin quiz script -->
+<script>
+function finish() {
+	var ext = '.html';
+	var results = new Array("none","Cambridge Galleria Mall","Copley Place","Downtown Crossing");
+	var nums = new Array(4);
+	for(var i = 0; i < nums.length; i++) nums[i] = 0;
+	for(var i = 1; i <= 5; i++) {
+		var q = document.forms['quiz'].elements['question_'+i];
+		if(q[0].type=='checkbox') {
+			var n = 0;
+		}
+		for(var j = 0; j < q.length; j++) {
+			if(q[j].checked) {
+				var a = q[j].value.split(',');
+				for(var k = 0; k < a.length; k++) {
+					nums[a[k]]++;
+				}
+				if(q[j].type=='radio') break;
+				else n++;
+			}
+			if(j == q.length-1&&q[j].type=='radio') {nums[0]++;}
+		}
+		if(q[0].type=='checkbox'&&((document.forms['quiz'].elements['question_'+i+'_min']&&n<document.forms['quiz'].elements['question_'+i+'_min'].value)||(document.forms['quiz'].elements['question_'+i+'_max']&&n>document.forms['quiz'].elements['question_'+i+'_max'].value))) nums[0]++;
+	}
+	var j = new Array('0');
+	for (i in nums) if(nums[i]>nums[j[0]]){j=new Array(''+i);} else if(nums[i]==nums[j[0]])j[j.length] = i;
+	//var o = '';for(var i in results)o+=results[i]+'='+nums[i]+'\n';
+	//alert(o);
+	if(nums[0]!=0) {
+		alert('You missed or incorrectly answered '+nums[0]+' questions!');
+	}
+	else if(j[0]==0) {
+		alert('No result could be determined.');
+	}
+	else {
+		location = results[j[0]]+ext;
+	}
+}
+</script>
+<!-- end quiz script -->
+
 
 
 <script>
@@ -161,3 +179,58 @@ function quiz_function() {
   document.getElementById('Name_result').innerHTML = value;
 }
 </script>
+
+
+
+<div id="quiz"></div>
+<button id="submit">Get Results</button>
+<div id="results"></div>
+
+
+
+
+<!-- begin quiz html -->
+<form name="quiz" action="javascript:finish();">
+<fieldset style="width:300px;">
+<legend><strong>Describe your style in one word?</strong> </legend>
+<font size="2" face="Verdana, Arial, Helvetica, sans-serif">
+<input name="question_1" type="checkbox" value="1"> Comfy Wear</font><br /><font size="2" face="Verdana, Arial, Helvetica, sans-serif">
+<input name="question_1" type="checkbox" value=""> Formal Wear</font><br /><font size="2" face="Verdana, Arial, Helvetica, sans-serif">
+<input name="question_1" type="checkbox" value="3"> Streetwear Style</font><br /><font size="2" face="Verdana, Arial, Helvetica, sans-serif">
+<input name="question_1" type="checkbox" value="1"> A mix of styles.</font><br />
+</fieldset>
+<br /><br /><fieldset style="width:300px;">
+<legend><strong>Where do you buy your shoes?</strong> </legend>
+<font size="2" face="Verdana, Arial, Helvetica, sans-serif">
+<input name="question_2" type="checkbox" value="1"> Call It Spring</font><br /><font size="2" face="Verdana, Arial, Helvetica, sans-serif">
+<input name="question_2" type="checkbox" value="2"> The Walking Company</font><br /><font size="2" face="Verdana, Arial, Helvetica, sans-serif">
+<input name="question_2" type="checkbox" value="2"> Skechers</font><br /><font size="2" face="Verdana, Arial, Helvetica, sans-serif">
+<input name="question_2" type="checkbox" value="1"> Etc....</font><br />
+</fieldset>
+<br /><br /><fieldset style="width:300px;">
+<legend><strong>Do you shop at a place that also has food?</strong> </legend>
+<font size="2" face="Verdana, Arial, Helvetica, sans-serif">
+<input name="question_3" type="checkbox" value="1"> Of course.</font><br /><font size="2" face="Verdana, Arial, Helvetica, sans-serif">
+<input name="question_3" type="checkbox" value="2"> No, I only shop at malls that are for buying clothes.</font><br /><font size="2" face="Verdana, Arial, Helvetica, sans-serif">
+<input name="question_3" type="checkbox" value="3"> I have no idea.</font><br />
+</fieldset>
+<br /><br /><fieldset style="width:300px;">
+<legend><strong>Where have you recently shopped and how many times have you been there?</strong> </legend>
+<font size="2" face="Verdana, Arial, Helvetica, sans-serif">
+<input name="question_4" type="checkbox" value="1"> H & M</font><br /><font size="2" face="Verdana, Arial, Helvetica, sans-serif">
+<input name="question_4" type="checkbox" value="2"> GAP</font><br /><font size="2" face="Verdana, Arial, Helvetica, sans-serif">
+<input name="question_4" type="checkbox" value=""> Forever 21</font><br /><font size="2" face="Verdana, Arial, Helvetica, sans-serif">
+<input name="question_4" type="checkbox" value="3"> Etc...</font><br />
+</fieldset>
+<br /><br /><fieldset style="width:300px;">
+<legend><strong>What is the limit price for your budget when shopping?</strong> </legend>
+<font size="2" face="Verdana, Arial, Helvetica, sans-serif">
+<input name="question_5" type="checkbox" value="3"> 50$</font><br /><font size="2" face="Verdana, Arial, Helvetica, sans-serif">
+<input name="question_5" type="checkbox" value="1"> 100$</font><br /><font size="2" face="Verdana, Arial, Helvetica, sans-serif">
+<input name="question_5" type="checkbox" value="2"> 200$</font><br /><font size="2" face="Verdana, Arial, Helvetica, sans-serif">
+<input name="question_5" type="checkbox" value="3"> Etc....</font><br />
+</fieldset>
+<br /><br /> <INPUT TYPE="submit" value="Finish">
+ <INPUT TYPE="reset" value="Reset">
+</form>
+<!-- end quiz html -->

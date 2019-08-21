@@ -1,3 +1,10 @@
+h15 {
+  background-color: white;
+    font-style: bold;
+    font-style: italic;
+    font-size: 30px;
+    color: black;
+}
 
 body {
   background-image: url(gre.jpg.png);

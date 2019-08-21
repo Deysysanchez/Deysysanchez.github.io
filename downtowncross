@@ -84,7 +84,7 @@
                   by American multinational corporation Gap Inc that was create in 1990 by Dayton-Hudson corporation. </h7>
               </div>
               <div class="flip-box-back">
-                <img class=flip-box-back" src="old.jpeg" style="width="700"; height="200"; </img>>
+                <img class=flip-box-back" src="old.jpg" style="width="700"; height="200"; </img>>
               </div>
             </div>
           </div>
@@ -96,8 +96,7 @@
                 <h8> <br> Skechers</h8>
           <h9> _____________________________ <br> </h9>
                 <h7>
-                  Sckechers is an American lifestyle and performance footwear company. Headquartered
-                  in Manhattan Beach, California, this company was founded in 1992 and is
+                  Sckechers is an American lifestyle and performance footwear company. This company is
                   now the third largest athletic footwear brand in the United States.</h7>
               </div>
               <div class="flip-box-back">
@@ -181,7 +180,7 @@
      Cammarata.</h7>
    </div>
    <div class="flip-box-back">
-     <img class=flip-box-back" src="t.jpeg" style="width="700"; height="200"; </img>>
+     <img class=flip-box-back" src="t.jpg" style="width="700"; height="200"; </img>>
    </div>
  </div>
 </div>
@@ -198,7 +197,7 @@
         Norman Barren.</h7>
    </div>
    <div class="flip-box-back">
-     <img class=flip-box-back" src="mar.jpg.png" style="width="700"; height="200"; >
+     <img class=flip-box-back" src="mar.jpg" style="width="700"; height="200"; >
    </div>
  </div>
 </div>
@@ -220,10 +219,11 @@
 </h3>
 
 
+<br> <br><br> <br> <h15> Did you like/dislike this page?</h15> <br> <br>
 
- <br> <br><br> <br> <h15> Did you like/dislike this page?</h15> <br> <br>
-
-
+<html>
+<head>
+<title>ChinaTown</title>
 <script language="javascript">
 function addone(field) {
 field.value = Number(field.value) + 1;
