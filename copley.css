@@ -55,7 +55,7 @@ h8 {  background-color: white;
   font-style: bold;
   font-style: italic;
   font-size: 30px;
-  color: grey;
+  color: #636363;
 
 }
 
@@ -63,5 +63,5 @@ p {
   font-size: 19px;
   font-style: italic;
   color:white;
-  background-color: grey;
+  background-color: #636363;
 }

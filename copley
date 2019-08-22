@@ -7,6 +7,7 @@
 <div class = "topnav-right">
 
   <h4><a style="text-decoration:italic; color:black;" href="homepage.html">Home Page</a></h4>
+     <h4><a style="text-decoration:italic; color:black;" href="mall">Shops</a></h4>
 
            <br>
            <br>
@@ -207,14 +208,13 @@ They contain variety of products such as shoes, leather goods, beauty and access
 <div class="flip-box">
   <div class="flip-box-inner">
     <div class="flip-box-front">
-      <h8> <br> Celine</h8>
+      <h8>  The Walking Company</h8>
 <h9> _____________________________ <br> </h9>
       <h7>
-        <br>CELINE is a French ready to wear and leather
-        luxury goods brand that has been owned by LVMH group since 1996.  </h7>
+      <br>  The Walking Company is the world's leading destination for high-quality, technically designed comfort footwear, orthotics, and accessories.   </h7>
     </div>
     <div class="flip-box-back">
-      <img class=flip-box-back" src="celine.jpg" style="width="700"; height="200"; </img>>
+      <img class=flip-box-back" src="walking.jpg.png" style="width="700"; height="200"; </img>
     </div>
   </div>
 </div>
@@ -293,3 +293,29 @@ They contain variety of products such as shoes, leather goods, beauty and access
 </div>
 </h3>
 <html>
+
+<br> <br><br> <br> <h15> Did you like/dislike this page?</h15> <br> <br>
+
+<html>
+<head>
+<title>ChinaTown</title>
+
+<script language="javascript">
+function addone(field) {
+field.value = Number(field.value) + 1;
+}
+
+function subtractone(field) {
+field.value = Number(field.value) - 1;
+}
+</script>
+</head>
+<body>
+<form name="myform">
+<!--input type="submit" onclick="this.disabled = true" value="Save" -->
+<input type="text" name="myfield" value="0" size="30" readonly="readonly"><br>
+<input type="button" value="Like! " onclick="addone(myfield);" onclick="this.disabled = true">
+<input type="button" value="Unlike!" onclick="subtractone(myfield);"><br>
+</form>
+</body>
+</html>

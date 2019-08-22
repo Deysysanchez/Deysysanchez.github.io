@@ -1,24 +1,236 @@
 <html>
    <link rel="stylesheet" href="mall.css">
 
+   <div class="scrollmenu" >
+   <center><IMG SRC="lss.jpg.png" ALT="some text" WIDTH=1340 HEIGHT=112>
+   <div class = "topnav-right">
 <h4><a style="text-decoration:italic; color:black;" href="homepage.html">Home Page</a></h4>
 
 
-   <br> <h2> Malls in Boston
            </h2>
            <br>
            <br>
+<meta name="viewport" content="width=device-width, initial-scale=1" align="center";>
 
-           <br>
-           <a href="cambridge.html"><img src="cambridge.jpg.png" style="width:20%"></a>
-           <br>
-           <br>
-           <br>
-           <br>
-           <br>
-           <a href="copley"><img src="cop.jpg.png" style="width:21% "></a>
-            <a href="downtowncross"><img src="downtown.jpg.png" style="width:21% "></a>
+<br>
+<br>
+<center>
+           <a href="cambridge.html"><img src="cambridge.jpg.png" style="width:19.9%"></a>
+
+           <a href="copley"><img src="cop.jpg.png" style="width:21.3% "></a>
+
+            <a href="downtowncross"><img src="downtown.jpg.png" style="width:20.5% "></a>
 
 
 <br>
            <div id="animated-gif-container"></div>
+
+           <form id="quizForm" method="post" onsubmit="quiz_function(); return false;">
+
+       <br>
+       <h1>
+       Which Mall is best for you to shop at?
+       </h1>
+       <br>
+       Enter Name
+       <input type="text" id="Name" value="">
+       <div id="Name_result"></div>
+       <br>
+       <input type="submit" value="Submit">
+       <label>
+
+         <div class="section1" align="center";>
+           <p class="question1">Describe your style in one word?</p>
+           <ul class="answers1">
+             <input type="radio" id="q1a" name="set1">
+             <label for="q1a">Comfy Wear</label>
+             <br/>
+             <input type="radio" id="q1a" name="set1">
+             <label for="q1b">Streetwear Style</label>
+             <br/>
+             <input type="radio" id="q1a" name="set1">
+             <label for="q1c">Formal Wear</label>
+             <br/>
+             <input type="radio" id="q1a" name="set1">
+             <label for="q1d">A mix of styles.</label>
+             <br/>
+
+           </ul>
+         </div>
+
+         <div class="section2" >
+
+           <p class="question2">Where do you buy your shoes?</p>
+           <ul class="answers2">
+             <input type="radio" name="q1" value="a" id="q1a">
+             <label for="q1a">Call It Spring</label>
+             <br/>
+             <input type="radio" name="q1" value="b" id="q1b">
+             <label for="q1b">The Walking Company</label>
+             <br/>
+             <input type="radio" name="q1" value="c" id="q1c">
+             <label for="q1c">Skechers</label>
+             <br/>
+             <input type="radio" name="q1" value="d" id="q1d">
+             <label for="q1d">Etc....</label>
+             <br/>
+           </ul>
+         </div>
+
+         <div class="section3">
+           <p class="question3">Do you shop at a place that also has food?</p>
+           <ul class="answers3">
+             <input type="radio" id="q1b" name="set3">
+             <label for="q1a">Of course.</label>
+             <br/>
+             <input type="radio" id="q1b" name="set3">
+             <label for="q1b">No, I only shop at malls that are for buying clothes.</label>
+             <br/>
+             <input type="radio" id="q1b" name="set3">
+             <label for="q1c">I have no idea.</label>
+             <br/>
+           </ul>
+         </div>
+
+         <div class="section4">
+           <p class="question4">Where have you recently shopped and how many times have you been there?</p>
+           <ul class="answers4">
+             <input type="radio" id="q1c" name="set4">
+             <label for="q1a">Forever 21</label>
+             <br/>
+             <input type="radio" id="q1c" name="set4">
+             <label for="q1b">Macy's</label>
+             <br/>
+             <input type="radio" id="q1c" name="set4">
+             <label for="q1c">H & M</label>
+             <br/>
+             <input type="radio" id="q1c" name="set4">
+             <label for="q1d">Etc....</label>
+             <br/>
+           </ul>
+         </div>
+
+         <div class="section5">
+           <p class="question5">What is the limit price for your budget when shopping?</p>
+           <ul class="answers5">
+             <input type="radio" id="q1d" name="set5">
+             <label for="q1a">50$</label>
+             <br/>
+             <input type="radio" id="q1d" name="set5">
+             <label for="q1b">100$</label>
+             <br/>
+             <input type="radio" id="q1d" name="set5">
+             <label for="q1c">200$</label>
+             <br/>
+             <input type="radio" id="q1d" name="set5">
+             <label for="q1d">Etc....</label>
+             <br/>
+           </ul>
+         </div>
+
+         <!-- begin quiz script -->
+<script>
+function finish() {
+	var ext = '.html';
+	var results = new Array("none","Cambridge Galleria Mall","Copley Place","Downtown Crossing");
+	var nums = new Array(4);
+	for(var i = 0; i < nums.length; i++) nums[i] = 0;
+	for(var i = 1; i <= 5; i++) {
+		var q = document.forms['quiz'].elements['question_'+i];
+		if(q[0].type=='checkbox') {
+			var n = 0;
+		}
+		for(var j = 0; j < q.length; j++) {
+			if(q[j].checked) {
+				var a = q[j].value.split(',');
+				for(var k = 0; k < a.length; k++) {
+					nums[a[k]]++;
+				}
+				if(q[j].type=='radio') break;
+				else n++;
+			}
+			if(j == q.length-1&&q[j].type=='radio') {nums[0]++;}
+		}
+		if(q[0].type=='checkbox'&&((document.forms['quiz'].elements['question_'+i+'_min']&&n<document.forms['quiz'].elements['question_'+i+'_min'].value)||(document.forms['quiz'].elements['question_'+i+'_max']&&n>document.forms['quiz'].elements['question_'+i+'_max'].value))) nums[0]++;
+	}
+	var j = new Array('0');
+	for (i in nums) if(nums[i]>nums[j[0]]){j=new Array(''+i);} else if(nums[i]==nums[j[0]])j[j.length] = i;
+	//var o = '';for(var i in results)o+=results[i]+'='+nums[i]+'\n';
+	//alert(o);
+	if(nums[0]!=0) {
+		alert('You missed or incorrectly answered '+nums[0]+' questions!');
+	}
+	else if(j[0]==0) {
+		alert('No result could be determined.');
+	}
+	else {
+		location = results[j[0]]+ext;
+	}
+}
+</script>
+<!-- end quiz script -->
+
+
+
+<script>
+function quiz_function() {
+  value = document.getElementById('Name').value;
+  //window.alert(value)
+  document.getElementById('Name_result').innerHTML = value;
+}
+</script>
+
+
+
+<div id="quiz"></div>
+<button id="submit">Get Results</button>
+<div id="results"></div>
+
+
+
+
+<!-- begin quiz html -->
+<form name="quiz" action="javascript:finish();">
+<fieldset style="width:300px;">
+<legend><strong>Describe your style in one word?</strong> </legend>
+<font size="2" face="Verdana, Arial, Helvetica, sans-serif">
+<input name="question_1" type="checkbox" value="1"> Comfy Wear</font><br /><font size="2" face="Verdana, Arial, Helvetica, sans-serif">
+<input name="question_1" type="checkbox" value=""> Formal Wear</font><br /><font size="2" face="Verdana, Arial, Helvetica, sans-serif">
+<input name="question_1" type="checkbox" value="3"> Streetwear Style</font><br /><font size="2" face="Verdana, Arial, Helvetica, sans-serif">
+<input name="question_1" type="checkbox" value="1"> A mix of styles.</font><br />
+</fieldset>
+<br /><br /><fieldset style="width:300px;">
+<legend><strong>Where do you buy your shoes?</strong> </legend>
+<font size="2" face="Verdana, Arial, Helvetica, sans-serif">
+<input name="question_2" type="checkbox" value="1"> Call It Spring</font><br /><font size="2" face="Verdana, Arial, Helvetica, sans-serif">
+<input name="question_2" type="checkbox" value="2"> The Walking Company</font><br /><font size="2" face="Verdana, Arial, Helvetica, sans-serif">
+<input name="question_2" type="checkbox" value="2"> Skechers</font><br /><font size="2" face="Verdana, Arial, Helvetica, sans-serif">
+<input name="question_2" type="checkbox" value="1"> Etc....</font><br />
+</fieldset>
+<br /><br /><fieldset style="width:300px;">
+<legend><strong>Do you shop at a place that also has food?</strong> </legend>
+<font size="2" face="Verdana, Arial, Helvetica, sans-serif">
+<input name="question_3" type="checkbox" value="1"> Of course.</font><br /><font size="2" face="Verdana, Arial, Helvetica, sans-serif">
+<input name="question_3" type="checkbox" value="2"> No, I only shop at malls that are for buying clothes.</font><br /><font size="2" face="Verdana, Arial, Helvetica, sans-serif">
+<input name="question_3" type="checkbox" value="3"> I have no idea.</font><br />
+</fieldset>
+<br /><br /><fieldset style="width:300px;">
+<legend><strong>Where have you recently shopped and how many times have you been there?</strong> </legend>
+<font size="2" face="Verdana, Arial, Helvetica, sans-serif">
+<input name="question_4" type="checkbox" value="1"> H & M</font><br /><font size="2" face="Verdana, Arial, Helvetica, sans-serif">
+<input name="question_4" type="checkbox" value="2"> GAP</font><br /><font size="2" face="Verdana, Arial, Helvetica, sans-serif">
+<input name="question_4" type="checkbox" value=""> Forever 21</font><br /><font size="2" face="Verdana, Arial, Helvetica, sans-serif">
+<input name="question_4" type="checkbox" value="3"> Etc...</font><br />
+</fieldset>
+<br /><br /><fieldset style="width:300px;">
+<legend><strong>What is the limit price for your budget when shopping?</strong> </legend>
+<font size="2" face="Verdana, Arial, Helvetica, sans-serif">
+<input name="question_5" type="checkbox" value="3"> 50$</font><br /><font size="2" face="Verdana, Arial, Helvetica, sans-serif">
+<input name="question_5" type="checkbox" value="1"> 100$</font><br /><font size="2" face="Verdana, Arial, Helvetica, sans-serif">
+<input name="question_5" type="checkbox" value="2"> 200$</font><br /><font size="2" face="Verdana, Arial, Helvetica, sans-serif">
+<input name="question_5" type="checkbox" value="3"> Etc....</font><br />
+</fieldset>
+<br /><br /> <INPUT TYPE="submit" value="Finish">
+ <INPUT TYPE="reset" value="Reset">
+</form>
+<!-- end quiz html -->
